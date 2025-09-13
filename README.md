@@ -28,8 +28,30 @@ It uses **Microsoft Edge WebDriver** to run automated browser tests on the pract
 ---
 
 ## 📂 Project Structure
-_ selenium-input-testing/
+- selenium-input-testing/
+- │
+- ├── main.py # Main Selenium script
+- ├── README.md # Project documentation (this file)
 
- │
- ├── main.py # Main Selenium script
- ├── README.md # Project documentation (this file)
+  
+---
+
+## 📋 Installation & Setup
+
+### 1️⃣ Prerequisites
+- [Python 3.x](https://www.python.org/downloads/)
+- [Microsoft Edge Browser](https://www.microsoft.com/edge)
+- [Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)  
+  Make sure the WebDriver version matches your Edge browser version.
+
+### 2️⃣ Install Dependencies
+```bash
+pip install selenium
+```
+
+### 3️⃣ Run the Script
+``` bash
+python web_inputs_selenium.py
+```
+
+
